@@ -12,6 +12,7 @@ Geben Sie die Summe der Zahlen in die Konsole aus:
 const prompt = require('prompt-sync')({sigint: true});
 
 let zahl1 = prompt("Erste natürliche Zahl: ");
+//console.log(typeof zahl1)
 let zahl2 = prompt("Zweite natürliche Zahl: ");
 
 let num1 = parseInt(zahl1)
