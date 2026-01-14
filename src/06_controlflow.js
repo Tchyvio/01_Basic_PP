@@ -89,3 +89,4 @@ switch (cond) {
     default:
         console.log("Value hat einen anderen Wert.");
         break;
+}
