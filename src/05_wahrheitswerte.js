@@ -30,3 +30,13 @@ ageMark = year - birthYearMark;
 // Ausgabe
 console.log("ageJohn: " + ageJohn);
 console.log("ageMark: " + ageMark);
+
+// Deklaration | Tests | Aussagenlogik
+// let isJohnOlder = false;
+
+// console.log("isJohnOlder: " + isJohnOlder)
+
+let isJohnOlder = (ageJohn > ageMark); // Test auf Ungleichheit
+let isJohnEqual = (ageJohn == ageMark) // Test auf Gleichheit
+console.log("isJohnOlder: " + isJohnOlder);
+console.log("isJohnEqual: " + isJohnEqual);
